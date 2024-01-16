@@ -1,0 +1,62 @@
+/* Conteneur principal du formulaire */
+.form-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Style de base pour les champs de formulaire */
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container textarea,
+.form-container select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Style pour les zones de texte */
+.form-container textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+/* Style pour les boutons de téléchargement de fichier */
+.form-container input[type="file"] {
+    border: none;
+}
+
+/* Style pour le bouton de soumission */
+.form-container button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.form-container button:hover {
+    background-color: #45a049;
+}
+
+/* Espacement et style pour les labels (si ajoutés) */
+.form-container label {
+    display: block;
+    font-weight: bold;
+}
+
+/* Style pour les erreurs de validation (si ajoutées) */
+.error-message {
+    color: red;
+    font-size: 0.9em;
+}

@@ -1,0 +1,56 @@
+/* MerchantDetails.css */
+.merchant-details {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  background-color: #fff;
+}
+
+.details-container {
+  margin-bottom: 20px;
+}
+
+.details-container h1 {
+  color: #2a2a72; /* Une couleur profonde pour les titres */
+  margin-bottom: 10px;
+}
+
+.details-info {
+  border-top: 1px solid #eaeaea;
+  padding-top: 20px;
+}
+
+.info {
+  margin-bottom: 10px;
+}
+
+.info h3 {
+  font-size: 1.1em;
+  color: #2a2a72;
+  margin-bottom: 5px;
+}
+
+.info p {
+  font-size: 0.9em;
+  line-height: 1.6;
+  color: #666;
+}
+
+.merchant-image-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.merchant-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+
+
+/* Ajouter des styles pour les boutons si nécessaire */
